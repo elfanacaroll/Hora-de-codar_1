@@ -1,0 +1,61 @@
+programa
+{
+	funcao inicio()
+	{
+		real quadrado, triangulo, retangulo, circulo, losango
+		real baseMaior, baseMenor, area, dMaior,dMenor
+		real lado, base, altura, raio
+
+		// Quadrado
+		escreva("Digite o lado do quadrado: ")
+        leia(lado)
+        quadrado = lado * lado
+        escreva("Área do quadrado: ", quadrado)
+        escreva("       \n ") 
+
+	    // Retângulo
+	    escreva("Digite a base do retângulo: ")
+	    leia(base)
+	    escreva("Digite a altura do retângulo: ")
+	    leia(altura)
+	    retangulo = base * altura
+	    escreva("\n Área do retângulo: "+ retangulo)
+        escreva("    \n  ")
+
+	    // Triângulo
+	    escreva("Digite a base do triângulo: ")
+	    leia(base)
+	    escreva("Digite a altura do triângulo: ")
+	    leia(altura)
+	    triangulo = (base * altura) / 2
+	    escreva("Área do triângulo: "+ triangulo)
+        escreva("    \n  ")
+
+	    // Círculo
+	    escreva("Digite o raio do círculo: ")
+	    leia(raio)
+	    circulo = 3.14 * raio * raio
+	    escreva("Área do círculo: ", circulo)
+       escreva("    \n  ")
+
+	    // Trapézio
+	    escreva("Digite a base maior do trapézio: ")
+	    leia(baseMaior)
+	    escreva("Digite a base menor do trapézio: ")
+	    leia(baseMenor)
+	    escreva("Digite a altura do trapézio: ")
+	    leia(altura)
+	    area = ((baseMaior + baseMenor) * altura) / 2
+	    escreva("Área do trapézio: ", area)
+	    escreva("    \n  ")
+
+	    //losango
+	     escreva("Digite a diagonal Maior: ")
+	    leia(dMaior)
+	    escreva("Digite a diagonal Menor: ")
+	    leia(dMenor)
+	    losango = (dMaior * dMenor)/2
+	    escreva("Área do losango: ", losango)
+        escreva("    \n  ")
+	}
+}
