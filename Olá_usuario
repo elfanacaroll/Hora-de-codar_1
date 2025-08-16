@@ -1,0 +1,17 @@
+//2) Escreva um programa em que o usuário informe o seu nome e exiba a mensagem "Olá, [NomeDoUsuario]".
+
+programa
+{
+	
+	funcao inicio()
+	{
+	cadeia nome
+	cadeia resultado
+
+	escreva ("Informe seu nome:")
+	leia(nome)
+
+	resultado= "Olá, "+nome
+	escreva(resultado)
+	}
+}
